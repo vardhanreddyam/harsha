@@ -20,7 +20,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 8%;
-    background-color: #ffffff;
+    background-color: #c227e9;
 }
 .navbar {
     position: fixed;
@@ -32,14 +32,14 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 8%;
-    background-color: white;
+    background-color: rgb(92, 106, 151);
     z-index: 1000;
 }
 
 .logo {
     font-size: 27px;
     font-weight: bold;
-    color: #f28b35;
+    color: #e79120;
 }
 
 .logo span {
@@ -73,7 +73,7 @@ body {
     background: linear-gradient(
         rgba(0, 0, 0, 0.48),
         rgba(0, 0, 0, 0.48)
-    ),
+    );
     background-color: #f28b35;
 
     background-size: cover;
@@ -105,7 +105,7 @@ body {
 .hero-btn:hover {
     background-color: #dc7020;
 }
-.puppies-section {
+.flavours-section {
     padding: 65px 8%;
 }
 .section-heading {
@@ -124,42 +124,42 @@ body {
     line-height: 1.7;
     color: #666666;
 }
-.puppy-container {
+.icecream-container {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 30px;
 }
-.puppy-card {
+.icecream-card {
     background-color: #ffffff;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
     transition: transform 0.3s, box-shadow 0.3s;
 }
-.puppy-card:hover {
+.icecream-card:hover {
     transform: translateY(-6px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
-.puppy-card img {
+.icecream-card img {
     display: block;
     width: 100%;
     height: 230px;
     object-fit: cover;
 }
-.puppy-info {
+.icecream-info {
     padding: 22px;
 }
-.puppy-info h3 {
+.icecream-info h3 {
     font-size: 22px;
     margin-bottom: 12px;
 }
-.puppy-info p {
+.icecream-info p {
     font-size: 15px;
     color: #666666;
     line-height: 1.7;
     margin-bottom: 18px;
 }
-.puppy-info span {
+.icecream-info span {
     display: inline-block;
     background-color: #fff0df;
     color: #c56b20;
